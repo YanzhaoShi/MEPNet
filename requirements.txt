@@ -1,0 +1,176 @@
+accelerate==0.30.0
+aiofiles==23.2.1
+aiohttp==3.9.5
+aiosignal==1.3.1
+altair==5.3.0
+annotated-types==0.7.0
+anyio==4.4.0
+appdirs==1.4.4
+asttokens==2.4.1
+attrs==23.2.0
+bitsandbytes==0.43.1
+black==24.4.2
+Brotli==1.1.0
+certifi @ file:///croot/certifi_1707229174982/work/certifi
+chardet==5.2.0
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+ci-info==0.3.0
+click==8.1.7
+coloredlogs==15.0.1
+configobj==5.0.8
+configparser==7.0.0
+contourpy==1.2.1
+cycler==0.12.1
+datasets==2.19.1
+decorator==5.1.1
+dill==0.3.8
+distro==1.9.0
+dnspython==2.6.1
+einops==0.8.0
+email_validator==2.1.1
+et-xmlfile==1.1.0
+etelemetry==0.3.1
+executing==2.0.1
+fastapi==0.111.0
+fastapi-cli==0.0.4
+ffmpy==0.3.2
+filelock @ file:///croot/filelock_1700591183607/work
+fire==0.6.0
+fitz==0.0.1.dev2
+fonttools==4.52.4
+frontend==0.0.3
+frozenlist==1.4.1
+fsspec==2024.3.1
+gmpy2 @ file:///work/ci_py311/gmpy2_1676839849213/work
+gradio==4.31.5
+gradio_client==0.16.4
+h11==0.14.0
+httpcore==1.0.5
+httplib2==0.22.0
+httptools==0.6.1
+httpx==0.27.0
+huggingface-hub==0.23.0
+humanfriendly==10.0
+idna @ file:///croot/idna_1714398848350/work
+importlib_resources==6.4.0
+inflate64==1.0.0
+ipython==8.24.0
+isodate==0.6.1
+itsdangerous==2.2.0
+jedi==0.19.1
+jieba==0.42.1
+Jinja2 @ file:///croot/jinja2_1706733616596/work
+joblib==1.4.2
+jsonschema==4.22.0
+jsonschema-specifications==2023.12.1
+kiwisolver==1.4.5
+-e git+https://github.com/YanzhaoShi/MEPNet_test_version.git@973a10547961dde207b151d74d48ac35d779ca99#egg=llama_recipes&subdirectory=llama-recipes
+looseversion==1.3.0
+loralib==0.1.2
+lxml==5.2.2
+markdown-it-py==3.0.0
+MarkupSafe @ file:///croot/markupsafe_1704205993651/work
+matplotlib==3.9.0
+matplotlib-inline==0.1.7
+mdurl==0.1.2
+mkl-fft @ file:///croot/mkl_fft_1695058164594/work
+mkl-random @ file:///croot/mkl_random_1695059800811/work
+mkl-service==2.4.0
+monai==1.3.2
+mpmath @ file:///croot/mpmath_1690848262763/work
+multidict==6.0.5
+multiprocess==0.70.16
+multivolumefile==0.2.3
+mypy-extensions==1.0.0
+networkx @ file:///croot/networkx_1690561992265/work
+nibabel==5.2.1
+nipype==1.8.6
+nltk==3.8.1
+numpy @ file:///croot/numpy_and_numpy_base_1708638617955/work/dist/numpy-1.26.4-cp311-cp311-linux_x86_64.whl#sha256=5f96f274d410a1682519282ae769c877d32fdbf171aa8badec7bf5e1d3a1748a
+openai==1.30.4
+openpyxl==3.1.3
+optimum==1.19.1
+orjson==3.10.3
+packaging==24.0
+pandas==2.2.2
+parso==0.8.4
+pathlib==1.0.1
+pathspec==0.12.1
+peft==0.10.0
+pexpect==4.9.0
+pillow @ file:///croot/pillow_1714398848491/work
+platformdirs==4.2.1
+prompt-toolkit==3.0.43
+protobuf==5.26.1
+prov==2.0.1
+psutil==5.9.8
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py7zr==0.21.0
+pyarrow==16.0.0
+pyarrow-hotfix==0.6
+pybcj==1.0.2
+pycryptodomex==3.20.0
+pydantic==2.7.2
+pydantic_core==2.18.3
+pydot==2.0.0
+pydub==0.25.1
+Pygments==2.18.0
+pyparsing==3.1.2
+pyppmd==1.1.0
+PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
+python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
+python-multipart==0.0.9
+pytz==2024.1
+pyxnat==1.6.2
+PyYAML @ file:///croot/pyyaml_1698096049011/work
+pyzstd==0.15.10
+rdflib==6.3.2
+referencing==0.35.1
+regex==2024.4.28
+requests @ file:///croot/requests_1707355572290/work
+rich==13.7.1
+rpds-py==0.18.1
+ruff==0.4.6
+safetensors==0.4.3
+scikit-learn==1.5.0
+scipy==1.13.0
+seaborn==0.13.2
+semantic-version==2.10.0
+sentencepiece==0.2.0
+shellingham==1.5.4
+simplejson==3.19.2
+six==1.16.0
+sniffio==1.3.1
+stack-data==0.6.3
+starlette==0.37.2
+sympy @ file:///croot/sympy_1701397643339/work
+tabulate==0.9.0
+termcolor==2.4.0
+texttable==1.7.0
+threadpoolctl==3.5.0
+tokenize-rt==5.2.0
+tokenizers==0.19.1
+tomlkit==0.12.0
+toolz==0.12.1
+torch==2.3.0
+torchaudio==2.3.0
+torchvision==0.18.0
+tqdm==4.66.4
+traitlets==5.14.3
+traits==6.3.2
+transformers==4.40.2
+triton==2.3.0
+typer==0.12.3
+typing_extensions==4.8.0
+tzdata==2024.1
+ujson==5.10.0
+urllib3 @ file:///croot/urllib3_1707770551213/work
+uvicorn==0.30.0
+uvloop==0.19.0
+watchfiles==0.22.0
+wcwidth==0.2.13
+websockets==11.0.3
+xxhash==3.4.1
+yarl==1.9.4
