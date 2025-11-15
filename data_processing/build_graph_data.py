@@ -178,7 +178,7 @@ for index, sample in enumerate(dataset):
         print("train", sample_name)
         # You can use simple rules to determine the relationships between the 19 tissue and 13 lesion terms in the current report. 
         # A value of 1 indicates a relationship, and 0 indicates no relationship. This will build a tissue-lesion relationship matrix. 
-        # For convenience, we will directly load the pre-extracted file here.
+        # For convenience, we will directly load the pre-extracted file here (just unzip the file Tissue_Lesion_Alignment.zip).
         tissue_lesion_graph = torch.load("/devdata/Brain_CT_Datasets/CTRG-Brain/graph/Tissue_Lesion_Alignment/{}.pt".format(sample_name))  # 19*13
         Relation_A[0:19, 19:32] = tissue_lesion_graph
         Relation_A[19:32, 0:19] = tissue_lesion_graph.T
