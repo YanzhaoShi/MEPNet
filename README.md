@@ -11,6 +11,7 @@ The automatic generation of brain CT reports has gained widespread attention, gi
 
 ## Update
 2025.12.06 To facilitate better reproducibility of this code, we have made the official knowledge graph file for the public dataset CTRG-Brain available for download.
+See Tissue_Lesion_Alignment.zip in /data_processing
 
 ## Environment
 Our implementation is based on [Llama-recipes](https://github.com/meta-llama/llama-cookbook). Please refer to their repository for detailed environment setup instructions. Alternatively, you can set up the environment using the following commands:
